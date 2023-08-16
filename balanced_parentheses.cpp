@@ -34,7 +34,7 @@ int main(){
     cout<<"enter a string:";
     gets(s);
     if(check_parentheses(s,strlen(s))){
-        cout<<"nice parentheses"<<endl;
+        cout<<"it is a nice parentheses"<<endl;
     }
     else
         cout<<"hagu"<<endl;
