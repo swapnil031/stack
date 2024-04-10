@@ -16,6 +16,7 @@ int performoperation(char c,int a,int b){
         else
             return b-a;
 }
+
 bool isnumericdigit(char a){
     if(a>='0' && a<='9')
         return true;

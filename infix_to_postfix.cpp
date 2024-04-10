@@ -3,7 +3,7 @@
 using namespace std;
 bool isoperand(char c)
 {
-    if(c>='a' && c<='z')
+    if(c>='1' && c<='9')
         return true;
     return false;
 }
